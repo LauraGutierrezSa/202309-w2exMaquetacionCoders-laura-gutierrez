@@ -41,6 +41,24 @@ ul {
 }
 
 .navigate {
-  align-items: right;
+  margin-left: auto;
+}
+
+.pepTalk {
+    width: 99vw;
+    max-height: 520px;
+    object-fit: cover;
+}
+
+.hero {
+  font-size: 32px;
+  position: absolute;
+  top: 60px; right: 40px;
+  background-color: #333;
+  color: aliceblue;
+}
+
+.learning {
+  font-size: 35px;;
 }
 
