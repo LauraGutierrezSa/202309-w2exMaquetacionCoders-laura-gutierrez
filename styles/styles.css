@@ -15,7 +15,6 @@ p {
 }
 
 body {
-  padding: 1rem;
   font-family: "Montserrat", sans-serif;
   color: #333;
   font-size: 16px;
@@ -48,7 +47,7 @@ a {
 }
 
 .pepTalk {
-  width: 100vw;
+  width: 100%;
   max-height: 520px;
   object-fit: cover;
 }
@@ -72,10 +71,10 @@ a {
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding-inline-start: 0;
 }
 
 .text {
-  align-items: center;
   background-color: #ccc;
   margin: 20px;
   padding: 10px;
