@@ -41,10 +41,11 @@ ul {
 
 .navigate {
   margin-left: auto;
+  color: #333;
 }
 
 .pepTalk {
-  width: 98vw;
+  width: 100vw;
   max-height: 520px;
   object-fit: cover;
 }
