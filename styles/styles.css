@@ -1,31 +1,31 @@
 *,
 ::before,
 ::after {
-	box-sizing: border-box
+  box-sizing: border-box;
 }
 
-:root {
-	--main-color: 
-	--main-font: 
-}
-
-body, 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
 p {
-margin: 0;
-font-family: 'Montserrat', sans-serif;
-color: #333;
-font-size: 16px;
+  margin: 0;
+}
+
+body {
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-size: 16px;
 }
 
 ul {
-	list-style: none; 
-	padding: 0;
-	margin: 0;
+  padding: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
@@ -35,9 +35,8 @@ ul {
 }
 
 .cover {
-  margin-right: 50rem;;
-  width: 10%
-  ;
+  margin-right: 50rem;
+  width: 10%;
 }
 
 .navigate {
@@ -45,20 +44,35 @@ ul {
 }
 
 .pepTalk {
-    width: 99vw;
-    max-height: 520px;
-    object-fit: cover;
+  width: 99vw;
+  max-height: 520px;
+  object-fit: cover;
 }
 
 .hero {
   font-size: 32px;
   position: absolute;
-  top: 60px; right: 40px;
+  top: 75px;
+  right: 40px;
   background-color: #333;
   color: aliceblue;
 }
 
 .learning {
-  font-size: 35px;;
+  font-size: 35px;
 }
 
+.sections {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.text {
+  align-items: center;
+  background-color: #ccc;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
