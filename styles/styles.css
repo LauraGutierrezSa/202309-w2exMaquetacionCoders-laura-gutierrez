@@ -36,14 +36,20 @@ ul {
 .cover {
   margin-right: 50rem;
   width: 10%;
+  padding: 10px;
 }
 
 .navigate {
   margin-left: auto;
+  padding-right: 30px;
 }
 
 a {
   color: #333;
+}
+
+h1 {
+  padding: 20px;
 }
 
 .pepTalk {
