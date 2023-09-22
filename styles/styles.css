@@ -54,6 +54,7 @@ ul {
   position: absolute;
   top: 75px;
   right: 40px;
+  width: 25%;
   background-color: #333;
   color: aliceblue;
 }
@@ -71,8 +72,11 @@ ul {
 .text {
   align-items: center;
   background-color: #ccc;
-  justify-content: space-between;
   margin: 20px;
   padding: 10px;
   border-radius: 20px;
+}
+
+p {
+  padding-top: 20px;
 }
