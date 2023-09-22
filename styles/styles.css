@@ -44,7 +44,7 @@ ul {
 }
 
 .pepTalk {
-  width: 99vw;
+  width: 98vw;
   max-height: 520px;
   object-fit: cover;
 }
@@ -57,6 +57,7 @@ ul {
   width: 25%;
   background-color: #333;
   color: aliceblue;
+  font-weight: 300;
 }
 
 .learning {
